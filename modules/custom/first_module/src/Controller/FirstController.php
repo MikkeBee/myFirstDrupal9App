@@ -2,9 +2,13 @@
 
 namespace Drupal\first_module\Controller;
 
-class FirstController {
+use Drupal\Core\Controller\ControllerBase;
+
+
+class FirstController extends ControllerBase{
 
     public function first() {
-        return array('#markup' => 'Welcome to Drupal website');
+        //return array('#markup' => 'Welcome to Drupal website');
+        return ['#markup' => $this->t('Welcome to Drupal')];
     }
 }
