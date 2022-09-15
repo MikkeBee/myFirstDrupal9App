@@ -1,0 +1,7 @@
+nav_module.links:
+  path: "/page/links"
+  defaults:
+    _controller: '\Drupal\nav_module\Controller\NavController::links'
+    _title: "Customer Drupal 9 module links"
+  requirements:
+    _permission: "TRUE"

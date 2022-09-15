@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header,
+footer {
+  background-color: rgb(37, 194, 90);
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  height: 8rem;
+  /* min-height: calc(100vh - 161px); */
+}
+
+footer {
+  justify-content: center;
+  margin-top: 7rem;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 2.7rem;
+}
+
+.mainArea {
+  display: flex;
+  flex-direction: column;
+}
+
+.circleArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+
+.circle {
+  width: 400px;
+  height: 420px;
+  border-radius: 50%;
+  background-color: rgb(225, 116, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7rem;
+  color: white;
+  margin: 2rem;
+}
+
+.odd {
+  background-color: darkgoldenrod;
+}
+
+.even {
+  background-color: deeppink;
+}
+
+.circle p {
+  font-size: 7rem;
+}
+
+.buttonArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

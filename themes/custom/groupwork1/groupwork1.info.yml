@@ -1,0 +1,8 @@
+name: Groupwork1
+type: theme
+description: "A react app inside drupal"
+base theme: olivero
+core_version_requirement: ^9
+
+libraries:
+  - groupwork1/react_app

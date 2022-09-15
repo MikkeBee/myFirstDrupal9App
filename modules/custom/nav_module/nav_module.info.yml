@@ -1,0 +1,6 @@
+name: Nav Module
+type: module
+description: Custom nav druapl 9 module
+package: custom
+version: 1.0.0
+core_version_requirement: ^8 || ^9

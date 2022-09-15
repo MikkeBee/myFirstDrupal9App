@@ -1,0 +1,5 @@
+name: offer
+type: module
+version: VERSION
+description: "offer example"
+core_version_requirement: ^8 || ^9
